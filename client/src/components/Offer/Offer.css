@@ -1,0 +1,90 @@
+.offer{
+  padding:20px;
+}
+.offer-header{
+   text-align: center;
+   
+}
+.offer-header p{
+  color:gray;
+}
+.offer-header span{
+  text-decoration: underline;
+  color:orange;
+}
+.offer-banner{
+   width:100%;
+   height:60vh;
+   box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);  
+   margin-top: 20px;
+   border-radius: 50px;
+}
+.offer-banner-left{
+  width:30%;
+  height:100%;
+  float:left;
+  background:linear-gradient(120deg,orange 50%,rgba(0, 0, 0, 0.512));
+  padding:25px;
+
+}
+.offer-banner-left h1{
+   color:white;
+   font-size: 1rem;
+
+}
+.offer-banner-left p{
+  color:gray;
+  font-size: 13px;
+}
+.offer-banner-left span{
+  font-size: 2rem;
+
+}
+.cashback{
+  padding:10px;
+}
+.cashback h1{
+  font-size: 1rem;
+  color:white;
+}
+.cashback input{
+  width:80%;
+  border:none;
+  outline:none;
+  padding:10px;
+  background:black;
+  color:white;
+}
+.cashback button{
+  padding:10px 20px;
+  background:white;
+  color:orange;
+  border:none;
+  outline:none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.offer-banner-right{
+    background:linear-gradient(rgba(255, 166, 0, 0.458),rgba(0, 0, 0, 0.496)),url(../../assets/offer-banner.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height:100%;
+    border-radius: 25px;
+    
+    
+
+}
+.offer-banner-right h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top:150px;
+  color:white;
+  font-size: 3rem;
+  transform: translateX(150px);
+
+}
+.offer-banner-right span{
+  font-size: 5rem;
+}

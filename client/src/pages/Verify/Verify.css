@@ -1,0 +1,38 @@
+.verify{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.verify h1{
+  color:orange;
+}
+.verify h2{
+  font-size: 13px;
+}
+.card{
+  margin-top: 20px;
+  width:400px;
+  height:400px;
+  background:orange;
+  border-radius: 25px;
+  border-bottom-right-radius: 55px;
+  position: relative;
+}
+.card-color{
+  background:white;
+  border-radius: 25px;
+  width:300px;
+  height:300px;
+  position: absolute;
+  bottom:0;
+  right:0;
+ margin: 10px;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+}
+.card-color button{
+  width:80%;
+}
+

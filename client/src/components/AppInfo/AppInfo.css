@@ -1,0 +1,21 @@
+.appinfo{
+  margin-top: 50px;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  gap:20px;
+  background:rgba(128, 128, 128, 0.549);
+  border-radius: 10px;
+  padding:10px;
+}
+.appinfo h1{
+  font-size: 1.5rem;
+  color:black;
+}
+.apps{
+  display:flex;
+  gap:10px;
+}
+.apps img:hover{
+  transform: scale(1.1); 
+}

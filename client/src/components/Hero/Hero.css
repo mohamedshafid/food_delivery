@@ -1,0 +1,48 @@
+.hero{
+  background:linear-gradient(rgba(0, 0, 0, 0.562),rgba(0, 0, 0, 0.54)),url(../../assets/swiggy-hero.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:80vh;
+  margin: 20px 0px;
+  border-radius: 25px;
+  color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 150px;
+  gap:15px;
+}
+
+@keyframes hero{
+  0%{
+    opacity:0;
+    transform: translateY(-100px);
+  }
+  100%{
+    opacity:1;
+    transform: translateY(0px);
+  }
+}
+.hero h1{
+  font-size: 3rem;
+  animation:hero 2s linear;
+
+}
+.hero p{
+  font-size: 14px;
+  color:gray;
+  animation:hero 2s linear;
+
+}
+.hero-span{
+  color:orange;
+}
+.hero button{
+  width:400px;
+  padding:10px 20px;
+  border-radius: 20px;
+  background:orange;
+  color:white;
+  cursor: pointer;
+}
