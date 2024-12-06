@@ -6,7 +6,7 @@ export const ShowContext = createContext();
 
 const ShowContextProvider = (props) => { 
 
-  const url_api = "http://localhost:8000";
+  const url_api = "https://food-delivery-alpha-ashy.vercel.app/";
   
   const [foodQuantity, setFoodQuantity] = useState({});
   const [total_price, setTotalPrice] = useState(0);
